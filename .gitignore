@@ -12,6 +12,7 @@ web/assets/
 # IDE
 .vscode/
 .idea/
+.cursor/
 
 # OS
 .DS_Store
