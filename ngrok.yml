@@ -1,0 +1,13 @@
+# CoinWatch ngrok tunnel config
+#
+# Usage (merge with your personal ngrok config that contains authtoken):
+#   ngrok start --all --config <your-ngrok-config> --config ngrok.yml
+#
+# Or just run: ngrok http 3001
+
+version: "2"
+
+tunnels:
+  mcp:
+    proto: http
+    addr: 3001
