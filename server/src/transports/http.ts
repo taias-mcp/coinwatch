@@ -96,7 +96,7 @@ export function startHttpServer(options: HttpServerOptions) {
 ║                                                           ║
 ║  To connect to ChatGPT:                                   ║
 ║    1. Start ngrok: ngrok http ${port}                       ║
-║    2. Add connector in ChatGPT with URL:                  ║
+║    2. Create App in ChatGPT with URL:                     ║
 ║       https://your-id.ngrok-free.app/mcp                  ║
 ╚═══════════════════════════════════════════════════════════╝
     `);

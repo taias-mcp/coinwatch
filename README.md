@@ -56,7 +56,7 @@ cp .env.example .env
 ./demo.sh
 ```
 
-This starts the MCP server and ngrok tunnel, then prints the ChatGPT connector URL.
+This starts the MCP server and ngrok tunnel, then prints the ChatGPT App URL.
 
 **Option B: Manual startup**
 
@@ -79,7 +79,7 @@ Note the public URL (e.g., `https://abc123.ngrok-free.app`).
    https://<ngrok-id>.ngrok-free.app/mcp
    ```
 4. Name it "CoinWatch"
-5. Start a new chat and select the CoinWatch connector
+5. Start a new chat and select the CoinWatch app
 
 ### 6. Test It!
 

@@ -5,7 +5,7 @@
 # This script:
 # 1. Starts the MCP server (port 3001)
 # 2. Starts ngrok tunnel
-# 3. Prints the URL for ChatGPT connector
+# 3. Prints the URL for ChatGPT App
 
 set -e
 
@@ -86,7 +86,7 @@ echo -e "${BLUE}╔════════════════════�
 echo -e "${BLUE}║                    Demo Ready!                            ║${NC}"
 echo -e "${BLUE}╠═══════════════════════════════════════════════════════════╣${NC}"
 echo -e "${BLUE}║${NC}"
-echo -e "${BLUE}║${NC}  ${GREEN}ChatGPT Connector URL:${NC}"
+echo -e "${BLUE}║${NC}  ${GREEN}ChatGPT App URL:${NC}"
 echo -e "${BLUE}║${NC}    ${MCP_URL}/mcp"
 echo -e "${BLUE}║${NC}"
 echo -e "${BLUE}╠═══════════════════════════════════════════════════════════╣${NC}"
