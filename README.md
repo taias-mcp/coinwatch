@@ -25,7 +25,7 @@ A ChatGPT App / MCP server for cryptocurrency price tracking and simulated inves
 cd server && npm install
 
 # Web widgets
-cd ../web && npm install --legacy-peer-deps
+cd ../web && npm install
 ```
 
 ### 2. Build Everything
